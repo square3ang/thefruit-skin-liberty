@@ -157,7 +157,7 @@
                     <ul class="footer-places" @click="onDynamicContentClick($event)" v-html="$store.state.config['skin.liberty.footer_html']" />
                     <ul class="footer-icons">
                         <li class="footer-poweredbyico">
-                            <a href="//gitlab.com/librewiki/Liberty-MW-Skin">Liberty</a> | <a href="//theseed.io/">the seed</a>
+                            <a href="//gitlab.com/librewiki/Liberty-MW-Skin">Liberty</a> | <a href="//github.com/square3ang/the-fruit">the fruit</a>
                         </li>
                     </ul>
                 </div>
@@ -196,7 +196,7 @@ import SearchForm from './layouts/searchForm';
 import ContentTool from './layouts/contentTool';
 import Dropdown from './components/dropdown';
 import SettingModal from './components/settingModal';
-import License from "raw-loader!./LICENSE";
+import License from "./LICENSE";
 
 export default {
     mixins: [Common],
